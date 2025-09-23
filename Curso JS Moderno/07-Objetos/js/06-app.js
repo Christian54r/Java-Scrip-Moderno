@@ -17,6 +17,8 @@ const producto = {
 //Aqui estoy visulizando en consola la constante que refleja el {nombre} del objeto {producto}
 // console.log(nombre);
 
-const { nombre, informacion: { fabricacion } } = producto;
+const { nombre, informacion, informacion: { fabricacion,fabricacion: { pais } } } = producto;
 console.log(nombre);
-console.log(fabricacion); 
+console.log(informacion);
+console.log(fabricacion);
+console.log(pais);
